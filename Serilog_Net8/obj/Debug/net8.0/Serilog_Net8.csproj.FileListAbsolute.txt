@@ -40,3 +40,5 @@ C:\Users\tayya\source\Repos\Serilog_Net8\Serilog_Net8\obj\Debug\net8.0\refint\Se
 C:\Users\tayya\source\Repos\Serilog_Net8\Serilog_Net8\obj\Debug\net8.0\Serilog_Net8.pdb
 C:\Users\tayya\source\Repos\Serilog_Net8\Serilog_Net8\obj\Debug\net8.0\Serilog_Net8.genruntimeconfig.cache
 C:\Users\tayya\source\Repos\Serilog_Net8\Serilog_Net8\obj\Debug\net8.0\ref\Serilog_Net8.dll
+C:\Users\tayya\source\Repos\Serilog_Net8\Serilog_Net8\bin\Debug\net8.0\Serilog.Sinks.Seq.dll
+C:\Users\tayya\source\Repos\Serilog_Net8\Serilog_Net8\obj\Debug\net8.0\Serilog_Net8.sourcelink.json

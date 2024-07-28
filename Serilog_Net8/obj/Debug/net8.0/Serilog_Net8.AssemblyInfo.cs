@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("09e17a16-ab0c-4a55-9c3b-a945e5622ffc")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Serilog_Net8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c891b40ed3830ccf3e3dfc7d6d99b9d991f2aa4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Serilog_Net8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Serilog_Net8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

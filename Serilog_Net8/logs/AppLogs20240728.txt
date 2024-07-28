@@ -41,3 +41,55 @@
 2024-07-28 13:03:51.986 +05:00 [INF] Executed action Serilog_Net8.Controllers.WeatherForecastController.Get (Serilog_Net8) in 37.9491ms
 2024-07-28 13:03:51.988 +05:00 [INF] Executed endpoint 'Serilog_Net8.Controllers.WeatherForecastController.Get (Serilog_Net8)'
 2024-07-28 13:03:51.989 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7178/WeatherForecast - 200 null application/json; charset=utf-8 48.7254ms
+2024-07-28 10:20:07.685 +00:00 [INF] Now listening on: http://[::]:8080
+2024-07-28 10:20:07.734 +00:00 [INF] Now listening on: https://[::]:8081
+2024-07-28 10:20:07.741 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-28 10:20:07.743 +00:00 [INF] Hosting environment: Development
+2024-07-28 10:20:07.743 +00:00 [INF] Content root path: /app
+2024-07-28 10:20:08.385 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger - null null
+2024-07-28 10:20:08.422 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger - 301 0 null 38.2833ms
+2024-07-28 10:20:08.432 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger/index.html - null null
+2024-07-28 10:20:08.529 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger/index.html - 200 null text/html;charset=utf-8 96.8677ms
+2024-07-28 10:20:08.572 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger/swagger-ui-bundle.js - null null
+2024-07-28 10:20:08.572 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger/swagger-ui.css - null null
+2024-07-28 10:20:08.572 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger/swagger-ui-standalone-preset.js - null null
+2024-07-28 10:20:08.687 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-07-28 10:20:08.687 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger/swagger-ui.css - 200 143943 text/css 115.5556ms
+2024-07-28 10:20:08.715 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-07-28 10:20:08.716 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 144.2397ms
+2024-07-28 10:20:08.786 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-07-28 10:20:08.787 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 214.913ms
+2024-07-28 10:20:08.890 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger/favicon-32x32.png - null null
+2024-07-28 10:20:08.891 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-07-28 10:20:08.892 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger/favicon-32x32.png - 200 628 image/png 2.5844ms
+2024-07-28 10:20:08.958 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger/v1/swagger.json - null null
+2024-07-28 10:20:09.041 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.6059ms
+2024-07-28 10:20:16.500 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/WeatherForecast - null null
+2024-07-28 10:20:16.508 +00:00 [INF] Executing endpoint 'Serilog_Net8.Controllers.WeatherForecastController.Get (Serilog_Net8)'
+2024-07-28 10:20:16.560 +00:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Serilog_Net8.WeatherForecast] Get() on controller Serilog_Net8.Controllers.WeatherForecastController (Serilog_Net8).
+2024-07-28 10:20:16.564 +00:00 [INF] APi hit now
+2024-07-28 10:20:16.567 +00:00 [INF] Weather forecasts: Serilog_Net8.WeatherForecast[]
+2024-07-28 10:20:16.569 +00:00 [INF] The Result Are : [{"Date":"2024-07-29","TemperatureC":44,"TemperatureF":111,"Summary":"Scorching","$type":"WeatherForecast"},{"Date":"2024-07-30","TemperatureC":33,"TemperatureF":91,"Summary":"Scorching","$type":"WeatherForecast"},{"Date":"2024-07-31","TemperatureC":32,"TemperatureF":89,"Summary":"Scorching","$type":"WeatherForecast"},{"Date":"2024-08-01","TemperatureC":53,"TemperatureF":127,"Summary":"Hot","$type":"WeatherForecast"},{"Date":"2024-08-02","TemperatureC":3,"TemperatureF":37,"Summary":"Scorching","$type":"WeatherForecast"}]
+2024-07-28 10:20:16.585 +00:00 [INF] Executing ObjectResult, writing value of type 'Serilog_Net8.WeatherForecast[]'.
+2024-07-28 10:20:16.610 +00:00 [INF] Executed action Serilog_Net8.Controllers.WeatherForecastController.Get (Serilog_Net8) in 41.0313ms
+2024-07-28 10:20:16.612 +00:00 [INF] Executed endpoint 'Serilog_Net8.Controllers.WeatherForecastController.Get (Serilog_Net8)'
+2024-07-28 10:20:16.615 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/WeatherForecast - 200 null application/json; charset=utf-8 114.6263ms
+2024-07-28 10:21:56.300 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/ - null null
+2024-07-28 10:21:56.323 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/ - 404 0 null 22.7024ms
+2024-07-28 10:21:56.324 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:32768/, Response status code: 404
+2024-07-28 10:21:56.389 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/favicon.ico - null null
+2024-07-28 10:21:56.391 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/favicon.ico - 404 0 null 2.7107ms
+2024-07-28 10:21:56.393 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:32768/favicon.ico, Response status code: 404
+2024-07-28 10:22:08.047 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/ - null null
+2024-07-28 10:22:08.051 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/ - 404 0 null 4.011ms
+2024-07-28 10:22:08.052 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:32768/, Response status code: 404
+2024-07-28 10:22:08.145 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/favicon.ico - null null
+2024-07-28 10:22:08.154 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/favicon.ico - 499 null null 9.192ms
+2024-07-28 10:22:08.158 +00:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:32768/favicon.ico, Response status code: 499
+2024-07-28 10:22:11.920 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger/index.html - null null
+2024-07-28 10:22:11.948 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger/index.html - 200 null text/html;charset=utf-8 28.68ms
+2024-07-28 10:22:12.026 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger/swagger-ui.css - null null
+2024-07-28 10:22:12.029 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-07-28 10:22:12.031 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger/swagger-ui.css - 499 143943 text/css 4.2714ms
+2024-07-28 10:22:12.198 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger/v1/swagger.json - null null
+2024-07-28 10:22:12.202 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.3371ms

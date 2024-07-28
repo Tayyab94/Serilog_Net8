@@ -1,0 +1,17 @@
+﻿services:
+  serilog_net8:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: serilog_net8:latest
+    container_name: serilog_net8
+    ports:
+      - "80:80"
+  app-seq:
+    image: datalust/seq:latest
+    container_name: app-seq
+    environment:
+      - ACCEPT_EULA=Y
+    ports:
+      - "5042:5042"
+      - "8089:80"
